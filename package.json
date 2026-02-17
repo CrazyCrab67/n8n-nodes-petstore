@@ -1,5 +1,5 @@
 {
-  "name": "@devlikeapro/n8n-nodes-petstore",
+  "name": "@crazycrab67/n8n-nodes-petstore",
   "version": "1.0.0",
   "description": "n8n node to connect with Petstore",
   "keywords": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devlikeapro/n8n-nodes-petstore.git"
+    "url": "https://github.com/crazycrab67/n8n-nodes-petstore.git"
   },
   "engines": {
     "node": ">=18.10",
