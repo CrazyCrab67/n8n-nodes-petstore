@@ -6,10 +6,10 @@ const config: N8NPropertiesBuilderConfig = {}
 const parser = new N8NPropertiesBuilder(doc, config);
 const properties = parser.build()
 
-export class Petstore implements INodeType {
+export class hornet implements INodeType {
     description: INodeTypeDescription = {
-        displayName: 'Petstore',
-        name: 'petstore',
+        displayName: 'hornet',
+        name: 'hornet',
         icon: 'file:logo.svg',
         group: ['transform'],
         version: 1,
@@ -31,7 +31,7 @@ export class Petstore implements INodeType {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            baseURL: 'https://petstore3.swagger.io/api/v3',
+            baseURL: 'https://cp.hornetsecurity.com/api/v0',
         },
         properties: properties,
     };
