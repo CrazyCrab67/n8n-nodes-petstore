@@ -1,5 +1,4 @@
 import {
-    IAuthenticateGeneric, ICredentialTestRequest,
     ICredentialType,
     INodeProperties,
 } from 'n8n-workflow';
@@ -35,8 +34,8 @@ export class hornetApi implements ICredentialType {
             required: true,
             typeOptions: {password: true},
         },
-		{
-			displayName: 'Authorization',
+	{
+	    displayName: 'Authorization',
             name: 'Authorization',
             type: 'string',
             placeholder: "00000000-0000-0000-0000-000000000000",
@@ -45,22 +44,4 @@ export class hornetApi implements ICredentialType {
             typeOptions: {password: true},
         },
     ];
-
-    authenticate: IAuthenticateGeneric = {
-        type: 'generic',
-        properties: {
-            headers: {
-                'CP-TOKEN': '={{$credentials.CP-TOKEN}}',
-		'Authorization': '={{$credentials.Authorization}}',
-		'APP-VERSION': '={{$credentials.APP-VERSION}}'
-            },
-        },
-    };
-
-    test: ICredentialTestRequest = {
-        request: {
-            baseURL: '={{$credentials.url}}',
-            url: '/api/v0/object/',
-        },
-    };
 }
