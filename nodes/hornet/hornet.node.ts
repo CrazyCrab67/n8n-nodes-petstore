@@ -14,15 +14,15 @@ export class hornet implements INodeType {
         group: ['transform'],
         version: 1,
         subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-        description: 'Interact with Petstore API',
+        description: 'Interact with hornet API',
         defaults: {
-            name: 'Petstore',
+            name: 'hornet',
         },
         inputs: ['main'],
         outputs: ['main'],
         credentials: [
             {
-                name: 'petstoreApi',
+                name: 'hornetApi',
                 required: false,
             },
         ],
