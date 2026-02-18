@@ -60,8 +60,8 @@ export class hornet implements ICredentialType {
         properties: {
             headers: {
                 'CP-TOKEN': '={{$credentials.CP-TOKEN}}',
-				'Authorization': '={{$credentials.Authorization}}',
-				'APP-VERSION': '={{$credentials.APP-VERSION}}'
+		'Authorization': '={{$credentials.Authorization}}',
+		'APP-VERSION': '={{$credentials.APP-VERSION}}'
             },
         },
     };

@@ -34,7 +34,7 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [],
+    "credentials": ["dist/credentials/hornet.credentials.js"],
     "nodes": [
       "dist/nodes/hornet/hornet.node.js"
     ]
