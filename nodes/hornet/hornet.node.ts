@@ -23,7 +23,7 @@ export class hornet implements INodeType {
         credentials: [
             {
                 name: 'hornetApi',
-                required: false,
+                required: true,
             },
         ],
         requestDefaults: {

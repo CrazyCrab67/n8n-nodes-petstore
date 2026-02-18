@@ -18,15 +18,6 @@ export class hornetApi implements ICredentialType {
             required: true,
         },
         {
-            displayName:
-                "There's many " +
-                "<a href='https://www.chatwoot.com/docs/contributing-guide/chatwoot-apis' target='_blank'></a><b>Access Token Types</b> in <b>ChatWoot</b></a>," +
-                " so we just check that <code>{{url}}/api</code> is accessible without token.",
-            default: '',
-            name: 'operation',
-            type: 'notice',
-        },
-        {
             displayName: 'CP-TOKEN',
             name: 'CP-TOKEN',
             type: 'string',
