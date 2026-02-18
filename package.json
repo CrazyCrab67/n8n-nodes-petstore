@@ -1,6 +1,6 @@
 {
   "name": "@crazycrab67/n8n-nodes-petstore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "n8n node to connect with Petstore",
   "keywords": [
     "n8n-community-node-package"
@@ -36,7 +36,7 @@
     "n8nNodesApiVersion": 1,
     "credentials": [],
     "nodes": [
-      "dist/nodes/Petstore/Petstore.node.js"
+      "dist/nodes/hornet/Petstore.node.js"
     ]
   },
   "devDependencies": {
