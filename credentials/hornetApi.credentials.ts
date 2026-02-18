@@ -4,7 +4,7 @@ import {
     INodeProperties,
 } from 'n8n-workflow';
 
-export class hornet implements ICredentialType {
+export class hornetApi implements ICredentialType {
     name = 'hornetApi';
     displayName = 'hornet API';
     documentationUrl = 'https://cp.hornetsecurity.com/api/v0/docs/';
