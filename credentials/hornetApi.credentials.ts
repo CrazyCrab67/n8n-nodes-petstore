@@ -69,7 +69,7 @@ export class hornet implements ICredentialType {
     test: ICredentialTestRequest = {
         request: {
             baseURL: '={{$credentials.url}}',
-            url: '/api/v0/object/?name=symplasson',
+            url: '/api/v0/object/',
         },
     };
 }
